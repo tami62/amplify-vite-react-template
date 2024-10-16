@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import type { Schema } from "../amplify/data/resource";
 import { generateClient } from "aws-amplify/data";
+import { FileUploader } from '@aws-amplify/ui-react-storage';
+import '@aws-amplify/ui-react/styles.css';
 
 const client = generateClient<Schema>();
 
@@ -32,7 +34,14 @@ function App() {
         <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates">
           Review next step of this tutorial.
         </a>
-      </div>
+      </div>  
+      
+          <FileUploader
+            acceptedFileTypes={['image/*']}
+            path="public/"
+            maxFileCount={1}
+            isResumable
+          />
     </main>
   );
 }
